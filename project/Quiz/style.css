@@ -1,0 +1,90 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	background: #6cf;
+	
+}
+.container{
+	height: 380px;
+	width: 1000px;
+	background: rgba(0, 0, 255, 0.5);
+	padding: 25px;
+	border-radius: 4px;
+
+}
+.title{
+	padding-top: 25px;
+	text-align: center;
+	font-size:36px;
+	text-transform: uppercase;
+	color: #7FFFD4; 
+
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background:#7CFC00;
+	border-radius: 20px;
+	margin:10px 0 10px 0;
+	color:#313131;
+}
+.quizContainer .option {
+	float:center;
+	width:100%;
+}
+.quizContainer .option ul {
+	list-style:none;
+	padding:0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.quizContainer .option ul li{
+	display: inline-block;
+	background:#607d8b;
+	width:calc(47% - 50px);
+	padding:15px;
+    border-radius:8px; 
+    margin-bottom:30px;
+    margin-top: 20px;
+	color:white;
+}
+.quizContainer .score{
+	padding: 10px 30px ;
+	float: left;
+	width: calc(75% - 50px); ; 
+	color: red ; 
+	font-size: 25;
+	font-weight: bold;
+	border:none;
+    border-radius:8px; 
+    margin-bottom:20px;
+    margin-top: 20px;
+
+}
+.quizContainer .score .next {
+	width: 40% ;
+	float: left ; 
+
+}
+.quizContainer .score .next button{
+	padding: 10px 30px ;
+	color: white ; 
+	background-color: red;
+	border: none ;
+	border-radius: 8px ;
+
+}
+.quizContainer .score .score{
+	width: 60% ;
+	float: left;
+
+}.
+
+ 
+
+
+
+
